@@ -12,11 +12,6 @@
   const handle = (params: string) => {
     console.log(params)
   }
-  const testChild = () =>{
-    let a: Object = {'a': 'b'}
-    console.log(a)
-  }
-  testChild()
   const child = ref()
   onMounted (() => {
     console.log(child.value.testChild())
