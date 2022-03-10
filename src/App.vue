@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import Child from './views/Child.vue'
+  import { Form, Input, Button } from 'ant-design-vue';
   import { onMounted, ref } from 'vue'
 
   defineProps({
