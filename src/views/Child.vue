@@ -19,7 +19,8 @@ const handle = () => {
   emit('on-change', 'child methods')
 }
 defineExpose({
-  testChild
+  testChild,
+  tetChild2
 })
 
 </script>
